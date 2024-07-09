@@ -20,7 +20,14 @@ btn3.addEventListener("click", () => {
 });
 
 const btn4 = document.querySelector("#btn4");
-const output = document.querySelector("#output4");
+const output4 = document.querySelector("#output4");
 btn4.addEventListener("click", () => {
   output4.style.color = "red";
+});
+
+const btn5 = document.querySelector("#btn5");
+const message = document.querySelector("#message");
+btn5.addEventListener("click", () => {
+  const log = message.getAttribute("value");
+  console.log(log);
 });
