@@ -12,3 +12,9 @@ btn2.addEventListener("click", () => {
   newText.textContent = "Hello word";
   output2.append(newText);
 });
+
+const btn3 = document.querySelector("#btn3");
+const output3 = document.querySelector("#output3 p");
+btn3.addEventListener("click", () => {
+  output3.classList.remove("small-text");
+});
