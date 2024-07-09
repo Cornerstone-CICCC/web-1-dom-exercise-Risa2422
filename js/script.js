@@ -18,3 +18,9 @@ const output3 = document.querySelector("#output3 p");
 btn3.addEventListener("click", () => {
   output3.classList.remove("small-text");
 });
+
+const btn4 = document.querySelector("#btn4");
+const output = document.querySelector("#output4");
+btn4.addEventListener("click", () => {
+  output4.style.color = "red";
+});
