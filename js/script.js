@@ -20,9 +20,12 @@ btn3.addEventListener("click", () => {
 });
 
 const btn4 = document.querySelector("#btn4");
-const output4 = document.querySelector("#output4");
-btn4.addEventListener("click", () => {
-  output4.style.color = "red";
+const output4 = document.querySelectorAll("#output4");
+
+output4.forEach((text) => {
+  btn4.addEventListener("click", () => {
+    text.style.color = "red";
+  });
 });
 
 const btn5 = document.querySelector("#btn5");
